@@ -2,7 +2,7 @@ import React from 'react'
 import a from "./AlternativeMessage.module.css";
 import k from "./Message.module.css";
 
-
+//
 type AlternativeMessageType = {
     avatar_friends: string
     name_friends: string
