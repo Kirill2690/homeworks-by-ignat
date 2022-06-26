@@ -2,43 +2,47 @@
     display: flex;
     align-items: flex-end;
 
-
 }
 
-.message_content {
-    background-color: teal;
+.message_content_friends {
+    background-color: darkgreen;
     width: 180px;
     height: 100px;
     border-radius: 30px 30px 30px 0px;
+
 }
 
 
-.message_avatar {
+.message_avatar_friends {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+
 }
 
 
-.message_name {
+.message_name_friends {
     font-size: 20px;
     font-weight: bold;
+    color: wheat;
     text-align: center;
-    color: violet;
+
+
 }
 
-.message_time {
+.message_time_request {
     font-size: 10px;
     justify-content: flex-end;
     color: whitesmoke;
-    padding: 5px 135px;
+    padding: 1px 135px;
+
 }
 
-.message_text {
+.message_text_friends {
     font-size: 15px;
     text-align: center;
     color: white;
-    padding: 20px 10px
+    padding: 10px 10px
 }
 
 .corner {
@@ -46,5 +50,3 @@
     height: 5px;
     background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 10px, rgba(255, 255, 255, 0.3) 0);
 }
-
-

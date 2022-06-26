@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    width: 100px;
+    transition-duration: 500ms;
+    transform: translate(-180px);
+}
+
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+}
+
+
+.link {
+    text-decoration: none;
+    color: darkseagreen;
+    margin: 10px;
+
+}
+
+.link:hover {
+    color: aqua;
+}
+
+.block {
+    width: 50px;
+    margin: 10px;
+    border: 3px solid darkseagreen
+
+}
+
+.active {
+    font-size: 10px;
+}
+
+.img {
+    width: 50%;
+    margin: 0 200px;
+
+
+}

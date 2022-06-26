@@ -1,3 +1,51 @@
 .someClass {
 
+    width: 100%;
+
+
+}
+
+.item_affair_name {
+    background-color: white;
+    border: black;
+    color: black;
+    width: 100px;
+    text-align: left;
+    margin: 10px 80px;
+
+
+}
+
+.item_affair_priority {
+    background-color: white;
+    color: black;
+    width: 100px;
+    text-align: center;
+    margin: 10px
+
+}
+
+.table {
+    border-collapse: initial;
+
+
+}
+
+.button {
+    background-color: #2e4c2f;
+    border: black;
+    color: white;
+    width: 70px;
+    text-align: center;
+    margin: 5px
+
+}
+
+.button_delete {
+    background-color: #d04133;
+    border: black;
+    color: white;
+    width: 50px;
+    text-align: center;
+    margin: 5px 55px
 }
