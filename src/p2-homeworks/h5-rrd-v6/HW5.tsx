@@ -13,7 +13,6 @@ function HW5() {
                 <Header/>
 
                 <Pages/>
-                <Error404/>
 
             </HashRouter>
 
