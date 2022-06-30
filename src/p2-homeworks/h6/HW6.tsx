@@ -18,7 +18,8 @@ function HW6() {
     return (
 
         <div className={s.wrapper}>
-
+            <hr/>
+            homeworks 6
             <div>
                 <SuperEditableSpan
                     value={value}
