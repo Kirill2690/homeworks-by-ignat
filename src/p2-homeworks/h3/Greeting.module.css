@@ -4,10 +4,11 @@
 
 .error {
     border-color: red;
+    color: #d04133;
 }
 
 .greeting {
-    color: white;
+    color: black;
 
 
 }
@@ -28,12 +29,11 @@ s.button {
 
 }
 
-s.count {
-
+s.count{
+margin: 0 auto;
     display: block;
-    background: white;
+    background-color: black;
     font-size: 15px;
-
-
+    color: rgb(49, 151, 116);
 }
 
