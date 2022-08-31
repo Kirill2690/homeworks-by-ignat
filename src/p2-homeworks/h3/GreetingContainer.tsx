@@ -28,13 +28,13 @@ export const GreetingContainer = (props: GreetingContainerPropsType) => { // Ð´Ð
     const addUser = () => {
         props.addUserCallback(name)
         alert(`Hello ${name} !`) // need to fix
-        setName('')
     }
 
 
     const onEnter = (e: KeyboardEvent<HTMLInputElement>) => {
         if (e.key === 'Enter' && name) {
             addUser()
+            setName('')
         }
     }
 

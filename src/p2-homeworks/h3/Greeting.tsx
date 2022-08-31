@@ -28,7 +28,7 @@ export const Greeting = (props: GreetingPropsType) => {
                        className={inputClass}
                        onKeyDown={props.onEnter}/>
                 <span className={s.count}>{props.totalUsers}</span>
-                <button onClick={props.addUser} className={s.button}>add
+                <button onClick={props.addUser} className={s.button} disabled={!props.name}>add
                 </button>
 
 
