@@ -36,8 +36,10 @@ function HW10() {
                 )
             }
 
+            <hr/>
 
         </div>
+
     )
 }
 

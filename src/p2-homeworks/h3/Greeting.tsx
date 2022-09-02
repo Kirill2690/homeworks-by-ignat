@@ -1,5 +1,6 @@
 import React, {ChangeEvent, KeyboardEvent} from 'react'
 import s from './Greeting.module.css'
+import {Button} from "@mui/material";
 
 
 type GreetingPropsType = {
@@ -28,8 +29,9 @@ export const Greeting = (props: GreetingPropsType) => {
                        className={inputClass}
                        onKeyDown={props.onEnter}/>
                 <span className={s.count}>{props.totalUsers}</span>
-                <button onClick={props.addUser} className={s.button} disabled={!props.name}>add
-                </button>
+                <Button   onClick={props.addUser} disabled={!props.name} size={"small"} >
+                    ✅
+                </Button>
 
 
             </div>

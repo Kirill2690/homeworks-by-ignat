@@ -3,6 +3,9 @@ import {Navigate, Route, Routes} from "react-router-dom";
 import Error404 from "./pages/Error404";
 import Junior from "./pages/Junior";
 
+import JuniorPlus from "./pages/Junior_Plus";
+import PreJunior from "./pages/PreJunior";
+
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
     JUNIOR: '/junior',
@@ -18,15 +21,11 @@ function Pages() {
 
                 <Route path={'/'} element={<Navigate to={PATH.PRE_JUNIOR}/>}/>
 
-                <Route path={PATH.PRE_JUNIOR} element={<Junior/>}/>
-
-                <Route path={'/'} element={<Navigate to={PATH.JUNIOR}/>}/>
+                <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
 
                 <Route path={PATH.JUNIOR} element={<Junior/>}/>
 
-                <Route path={'/'} element={<Navigate to={PATH.JUNIOR_PLUS}/>}/>
-
-                <Route path={PATH.JUNIOR_PLUS} element={<Junior/>}/>
+                <Route path={PATH.JUNIOR_PLUS} element={<JuniorPlus/>}/>
 
               
                 <Route path={'/*'} element={<Error404/>}/>
