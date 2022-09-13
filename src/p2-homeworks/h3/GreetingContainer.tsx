@@ -27,6 +27,7 @@ export const GreetingContainer = (props: GreetingContainerPropsType) => { // Ð´Ð
 
     const addUser = () => {
         props.addUserCallback(name)
+        setName('')
         alert(`Hello ${name} !`) // need to fix
     }
 

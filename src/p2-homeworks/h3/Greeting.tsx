@@ -30,7 +30,7 @@ export const Greeting = (props: GreetingPropsType) => {
                        onKeyDown={props.onEnter}/>
                 <span className={s.count}>{props.totalUsers}</span>
                 <Button   onClick={props.addUser} disabled={!props.name} size={"small"} >
-                    ✅
+                    add✅
                 </Button>
 
 
