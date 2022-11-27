@@ -1,54 +1,54 @@
 import React, {useState} from 'react'
 import SuperRange from './common/c7-SuperRange/SuperRange'
-import {SuperDoubleRange} from "./common/c8-SuperDoubleRange/SuperDoubleRange";
+
 import s from './HW11.module.css'
+import SuperDoubleRange from "./common/c8-SuperDoubleRange/SuperDoubleRange";
 
 
 function HW11() {
-    /*const [min, setMin] = useState<number>(0)
-    const [max, setMax] = useState<number>(100)*/
-    const[value,setValue]=useState<number[]>([0,100])
-    const onChangeRange=(newValue:number)=>{
-        setValue((value)=>{
-            const copy=[...value];
-            copy[0]=newValue
-            return copy
-        })
+    const [value1, setValue1] = useState(0)
+    const [value2, setValue2] = useState(100)
+
+    const rangeValueHandler = (value: number) => {
+        setValue1(value)
     }
-    const handleChange=(event:Event,newValue:number|number[])=>{
-        setValue(newValue as number[])
+
+    const doubleRangeValueHandler = (value: number[]) => {
+        setValue1(value[0])
+        setValue2(value[1])
     }
+
     return (
         <div style={{background: "silver"}}>
             <hr/>
             <hr/>
             homeworks 11
 
-
             <div>
-                <span>{value[0]}</span>
+                <span>{value1}</span>
                 <SuperRange
-                    onChangeRange={onChangeRange}
-                    value={value[0]}
+                    onChangeRange={rangeValueHandler}
+                    value={value1}
+                    // сделать так чтоб value1 изменялось
                 />
             </div>
-            <div className={s.container}>
-                <span>{value[0]}</span>
 
+            <div className={s.box}>
+                <span>{value1}</span>
                 <SuperDoubleRange
-                    value={value}
-                    handleChange={handleChange}
+                    onChangeRange={doubleRangeValueHandler}
+                    value={[value1, value2]}
+                    // сделать так чтоб value1 и value2 изменялось
                 />
-                <span style={{margin:10}}>{value[1]}</span>
-
+                <span>{value2}</span>
             </div>
 
-
-
-<hr/>
+            <hr/>
+            {/*для личного творчества, могу проверить*/}
+            {/*<AlternativeSuperRange/>*/}
+            {/*<AlternativeSuperDoubleRange/>*/}
+            <hr/>
         </div>
-
-
     )
 }
 
