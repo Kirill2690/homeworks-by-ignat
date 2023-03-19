@@ -8,12 +8,11 @@ import HW6 from "../../h6/HW6";
 
 function PreJunior() {
     return (
-        <div>
-            <HW1/>
-            <HW2/>
-            <HW3/>
-            <HW4/>
-            <HW6/>
+        <div id={'hw5-page-pre-junior'}>
+            <HW1 />
+            <HW2 />
+            <HW3 />
+            <HW4 />
         </div>
     )
 }

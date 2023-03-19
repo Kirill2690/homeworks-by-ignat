@@ -1,7 +1,8 @@
 import React from 'react'
-import Header from './Header'
+
 import Pages from './Pages'
 import {HashRouter} from "react-router-dom";
+import {Layout} from "./layout/Layout";
 
 
 function HW5() {
@@ -9,15 +10,12 @@ function HW5() {
         <div>
             <hr/>
             homeworks 5
-
             <HashRouter>
-
-                <Header/>
-
-                <Pages/>
-
+                {/*в gh-pages лучше работает HashRouter, с BrowserRouter скорее всего не пройдёт тест*/}
+                <Layout>
+                    <Pages/>
+                </Layout>
             </HashRouter>
-
         </div>
     )
 }
