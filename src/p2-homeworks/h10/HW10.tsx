@@ -3,6 +3,7 @@ import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import {useDispatch, useSelector} from "react-redux";
 import {AppStoreType} from "./bll/store";
 import {loadingAC} from "./bll/loadingReducer";
+import {Loader} from "./loader/Loader";
 
 function HW10() {
     const isLoading = useSelector<AppStoreType, boolean>(state => state.loading.isLoading)
@@ -14,7 +15,6 @@ function HW10() {
             dispatch(loadingAC(false))
         }, 1500)
 
-        console.log('loading...')
     };
 
     return (
@@ -23,12 +23,9 @@ function HW10() {
             <hr/>
             <hr/>
             homeworks 10
-
-
-
             {isLoading
                 ? (
-                    <div>крутилка...</div>
+                    <Loader/>
                 ) : (
                     <div>
                         <SuperButton onClick={setLoading}>set loading...</SuperButton>
