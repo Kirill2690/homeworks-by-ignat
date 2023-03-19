@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/homeworks-by-ignat/static/css/main.cad48976.chunk.css",
+    "main.css": "/homeworks-by-ignat/static/css/main.206c017e.chunk.css",
     "main.js": "/homeworks-by-ignat/static/js/main.1128a0f6.chunk.js",
     "main.js.map": "/homeworks-by-ignat/static/js/main.1128a0f6.chunk.js.map",
     "runtime-main.js": "/homeworks-by-ignat/static/js/runtime-main.a383881d.js",
@@ -8,15 +8,15 @@
     "static/js/2.7097a19a.chunk.js": "/homeworks-by-ignat/static/js/2.7097a19a.chunk.js",
     "static/js/2.7097a19a.chunk.js.map": "/homeworks-by-ignat/static/js/2.7097a19a.chunk.js.map",
     "index.html": "/homeworks-by-ignat/index.html",
-    "precache-manifest.762153fb4db9bf919646d6c37108480f.js": "/homeworks-by-ignat/precache-manifest.762153fb4db9bf919646d6c37108480f.js",
+    "precache-manifest.5469f024a7a4412cb235ef8b381cdcec.js": "/homeworks-by-ignat/precache-manifest.5469f024a7a4412cb235ef8b381cdcec.js",
     "service-worker.js": "/homeworks-by-ignat/service-worker.js",
-    "static/css/main.cad48976.chunk.css.map": "/homeworks-by-ignat/static/css/main.cad48976.chunk.css.map",
+    "static/css/main.206c017e.chunk.css.map": "/homeworks-by-ignat/static/css/main.206c017e.chunk.css.map",
     "static/js/2.7097a19a.chunk.js.LICENSE.txt": "/homeworks-by-ignat/static/js/2.7097a19a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a383881d.js",
     "static/js/2.7097a19a.chunk.js",
-    "static/css/main.cad48976.chunk.css",
+    "static/css/main.206c017e.chunk.css",
     "static/js/main.1128a0f6.chunk.js"
   ]
 }
