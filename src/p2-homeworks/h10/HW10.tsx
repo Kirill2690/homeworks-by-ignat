@@ -4,6 +4,7 @@ import {AppStoreType} from "./bll/store";
 import {loadingAC} from "./bll/loadingReducer";
 import {Loader} from "./loader/Loader";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+import {Button} from "@mui/material";
 
 function HW10() {
 
@@ -28,7 +29,7 @@ function HW10() {
                     <Loader/>
                 ) : (
                     <div>
-                        <SuperButton onClick={setLoading}>Set loading...</SuperButton>
+                        <Button onClick={setLoading}>Set loading...</Button>
                     </div>
                 )
             }
