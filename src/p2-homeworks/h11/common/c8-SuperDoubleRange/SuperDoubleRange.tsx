@@ -34,7 +34,7 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
 
     return (
         <>
-            <Box sx={{width: 300, margin: '15px'}}>
+            <Box sx={{width: 300, margin: '10px'}}>
                 <Slider
                     getAriaLabel={() => 'Temperature range'}
                     value={value}

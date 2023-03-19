@@ -1,3 +1,19 @@
-.App {
 
+.App {
+    --header_height: 60px;
+}
+
+.hw {
+    padding: 50px;
+    position: relative;
+    min-height: 120px;
+    border-bottom: 2px solid #D9D9D9;
+    min-width: 1280px;
+}
+
+
+.hwTitle {
+    padding: 30px;
+    border-bottom: 2px solid #D9D9D9;
+    min-width: 1280px;
 }

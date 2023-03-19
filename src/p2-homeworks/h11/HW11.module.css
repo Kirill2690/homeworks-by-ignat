@@ -1,4 +1,19 @@
 .container{
+
+}
+
+.wrapper {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.number {
+    min-width: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
 }
