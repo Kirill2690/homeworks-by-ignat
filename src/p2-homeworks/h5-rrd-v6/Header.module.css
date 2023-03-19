@@ -1,12 +1,12 @@
 .header {
     display: flex;
     width: 100px;
-    transition-duration: 400ms;
+    transition-duration: 300ms;
     transform: translate(-180px);
 }
 
 .header:hover {
-    transition-duration: 400ms;
+    transition-duration: 300ms;
     transform: translate(0);
 }
 

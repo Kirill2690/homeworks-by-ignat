@@ -11,7 +11,6 @@ const Junior = () => {
             <HW7/>
             <HW8/>
             <HW9/>
-            <HW11/>
             <HW12/>
         </div>
     );
